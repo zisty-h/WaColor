@@ -27,19 +27,19 @@
 ┃ ┗━・DeepMacha			#004000
 ┃
 ┣━■Azuki
-┃ ┣━・LightAzuki		#750000
+┃ ┣━・LightAzuki		#9E4343
 ┃ ┣━・NormalAzuki		#873333
-┃ ┗━・DeepAzuki			#9E4343
+┃ ┗━・DeepAzuki			#750000
 ┃
 ┣━■Kinako
-┃ ┣━・LightKinako		#968E00
+┃ ┣━・LightKinako		#D8D252
 ┃ ┣━・NormalKinako		#B7B021
-┃ ┗━・DeepKinako		#D8D252
+┃ ┗━・DeepKinako		#968E00
 ┃
 ┗━■Sora
-  ┣━・LightSora			#006372
+  ┣━・LightSora			#45BACC
   ┣━・NormalSora		#008BA0
-  ┗━・DeepSora			#45BACC
+  ┗━・DeepSora			#006372
 ```
 
 ## 使用条件
