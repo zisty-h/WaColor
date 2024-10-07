@@ -42,15 +42,9 @@
   ┗━・DeepSora			#006372
 ```
 
-## 使用条件
-このリポジトリは、あくまで各色を"纏めた"のみですので、<br>
-使用に制限、条件を課すことは**有りません**<br>
-ですが、このテンプレート/サンプルプログラムを使用したことにおける<br>
-一切の損害に関する責任を作者及びZistyは問われないこととします。<br>
-
-しかし使用した場合には参考として<br>
-このリポジトリへのリンクを張ってくださると大変嬉しいです。
+## 使用ライセンス(Licenseファイル)
+Freedom-Attribution License<br>
+https://github.com/syobosyobonn/Freedom-Attribution-License
 
 ## 作成年/作者
 2024 Syobosyobonn/Zisty 
-
