@@ -33,7 +33,7 @@
 ┃
 ┣━■Kinako
 ┃ ┣━・LightKinako		#968E00
-┃ ┣━・NormalKinako	#B7B021
+┃ ┣━・NormalKinako		#B7B021
 ┃ ┗━・DeepKinako		#D8D252
 ┃
 ┗━■Sora
