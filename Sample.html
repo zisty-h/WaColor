@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaColor-Preview</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            transition: color 0.5s, background-color 0.5s;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #5f5f5f;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            transition: color 0.5s;
+        }
+
+        .ColorParet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #555;
+            margin: 0;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .h2-wrapper {
+            position: relative;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .h2-wrapper::before,
+        .h2-wrapper::after {
+            content: '';
+            display: block;
+            height: 2px;
+            background-color: #999;
+            margin: 0 auto;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+
+        .h2-wrapper::before {
+            top: 0;
+        }
+
+        .h2-wrapper::after {
+            bottom: 0;
+        }
+
+        .ColorParet p {
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, color 0.5s;
+            font-size: 18px;
+        }
+
+        .ColorParet p:hover {
+            transform: translateY(-5px) scale(1.05);
+        }
+
+        .DeepMacha {
+            background-color: #004000;
+        }
+
+        .NormalMacha {
+            background-color: #007700;
+        }
+
+        .LightMacha {
+            background-color: #43B243;
+        }
+
+        .DeepAzuki {
+            background-color: #750000;
+        }
+
+        .NormalAzuki {
+            background-color: #873333;
+        }
+
+        .LightAzuki {
+            background-color: #9E4343;
+        }
+
+        .DeepKinako {
+            background-color: #968E00;
+        }
+
+        .NormalKinako {
+            background-color: #B7B021;
+        }
+
+        .LightKinako {
+            background-color: #D8D252;
+        }
+
+        .DeepSora {
+            background-color: #006372;
+        }
+
+        .NormalSora {
+            background-color: #008BA0;
+        }
+
+        .LightSora {
+            background-color: #45BACC;
+        }
+
+        button {
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #333;
+            transition: transform 0.3s, background-color 0.3s;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 1);
+        }
+
+        .dark-mode {
+            background-color: #222;
+            color: #ccc;
+        }
+
+        .dark-mode h1 {
+            color: #929292;
+        }
+
+        .dark-mode h2 {
+            color: #ddd;
+        }
+
+        .dark-mode .ColorParet p {
+            color: white;
+        }
+
+        .dark-mode button {
+            color: #ccc;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        button i {
+            transition: transform 0.3s;
+        }
+
+        .footer-note {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 12px;
+            color: #777;
+        }
+
+        .footer-line {
+            width: 60%;
+            /* 幅を設定 */
+            height: 1px;
+            background-color: #999;
+            margin: 5px auto;
+            /* 上下の余白を設定し、中央揃え */
+            max-width: 600px;
+            /* 最大幅を設定（必要に応じて調整） */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WaColor - Preview!</h1>
+    <div class="ColorParet">
+        <div class="h2-wrapper">
+            <h2>Macha</h2>
+        </div>
+        <div class="color-group">
+            <p class="DeepMacha">DeepMacha</p>
+            <p class="NormalMacha">NormalMacha</p>
+            <p class="LightMacha">LightMacha</p>
+        </div>
+
+        <div class="h2-wrapper">
+            <h2>Azuki</h2>
+        </div>
+        <div class="color-group">
+            <p class="DeepAzuki">DeepAzuki</p>
+            <p class="NormalAzuki">NormalAzuki</p>
+            <p class="LightAzuki">LightAzuki</p>
+        </div>
+
+        <div class="h2-wrapper">
+            <h2>Kinako</h2>
+        </div>
+        <div class="color-group">
+            <p class="DeepKinako">DeepKinako</p>
+            <p class="NormalKinako">NormalKinako</p>
+            <p class="LightKinako">LightKinako</p>
+        </div>
+
+        <div class="h2-wrapper">
+            <h2>Sora</h2>
+        </div>
+        <div class="color-group">
+            <p class="DeepSora">DeepSora</p>
+            <p class="NormalSora">NormalSora</p>
+            <p class="LightSora">LightSora</p>
+        </div>
+    </div>
+    <button id="btn">
+        <i class="fa-solid fa-moon fa-beat"></i>
+    </button>
+
+    <div class="footer-line"></div>
+    <p class="footer-note">
+        Icons made by <a href="https://fontawesome.com" target="_blank">Font Awesome</a> from <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>
+    </p>
+    <div class="footer-line"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <script>
+        let isDarkMode = false;
+        const DarkModeButton = document.getElementById('btn');
+
+        DarkModeButton.onclick = () => {
+            if (!isDarkMode) {
+                document.body.classList.add('dark-mode');
+                DarkModeButton.innerHTML = '<i class="fa-solid fa-sun"></i>';
+            } else {
+                document.body.classList.remove('dark-mode');
+                DarkModeButton.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            }
+
+            isDarkMode = !isDarkMode;
+        };
+    </script>
+</body>
+
+</html>
