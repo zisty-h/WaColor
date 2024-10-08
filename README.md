@@ -45,7 +45,7 @@
 ```
 
 ## 使用ライセンス(Licenseファイル)
-Freedom-Attribution License<br>
+Freedom-Attribution License 1.0.0<br>
 https://github.com/syobosyobonn/Freedom-Attribution-License
 
 ## 作成年/作者
