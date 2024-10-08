@@ -1,6 +1,8 @@
 # WaColor
 > Templates for Japanese colors ( Macha, Azuki, Kinako, Sora )
 
+![Colors](https://github.com/zisty-h/WaColor/blob/main/Colors.png?raw=true)
+
 ## 概要
 4*3種類の色のテンプレートです。<br>
 需要が無いことは理解っています()<br>
